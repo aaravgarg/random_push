@@ -472,3 +472,4 @@ Random paragraph with some text: dolor ipsum sit dolor ipsum lorem ipsum ipsum a
 **Bold Text 5**
 **Bold Text 50**
 **Bold Text 80**
+# Random Heading 2
