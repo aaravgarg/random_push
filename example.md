@@ -783,3 +783,4 @@ Random paragraph with some text: dolor lorem ipsum dolor lorem dolor dolor ipsum
 ```
 print('Hello, World 740!')
 ```
+![Random Image](https://via.placeholder.com/372)
