@@ -503,3 +503,4 @@ Random paragraph with some text: lorem dolor sit dolor ipsum lorem ipsum dolor i
 Random paragraph with some text: dolor lorem sit ipsum ipsum dolor dolor sit amet sit.
 - Bullet Point 68
 ![Random Image](https://via.placeholder.com/291)
+# Random Heading 2
