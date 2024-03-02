@@ -578,3 +578,4 @@ Random paragraph with some text: ipsum sit sit amet sit ipsum lorem ipsum amet a
 47. Numbered Item
 - Bullet Point 35
 56. Numbered Item
+![Random Image](https://via.placeholder.com/142)
