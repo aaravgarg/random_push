@@ -860,3 +860,4 @@ Random paragraph with some text: ipsum ipsum lorem dolor amet ipsum ipsum lorem 
 44. Numbered Item
 - Bullet Point 100
 **Bold Text 3**
+![Random Image](https://via.placeholder.com/110)
