@@ -750,3 +750,4 @@ print('Hello, World 488!')
 38. Numbered Item
 83. Numbered Item
 **Bold Text 10**
+![Random Image](https://via.placeholder.com/119)
