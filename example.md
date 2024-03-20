@@ -814,3 +814,4 @@ print('Hello, World 792!')
 ```
 # Random Heading 2
 Random paragraph with some text: amet lorem ipsum sit lorem dolor ipsum lorem amet ipsum.
+![Random Image](https://via.placeholder.com/332)
