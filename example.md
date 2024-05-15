@@ -545,3 +545,4 @@ Random paragraph with some text: amet lorem lorem amet dolor lorem dolor dolor a
 Random paragraph with some text: ipsum lorem ipsum amet ipsum dolor lorem lorem ipsum sit.
 # Random Heading 9
 Random paragraph with some text: ipsum sit amet lorem amet amet lorem dolor sit dolor.
+![Random Image](https://via.placeholder.com/417)
