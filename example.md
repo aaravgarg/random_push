@@ -760,3 +760,4 @@ print('Hello, World 195!')
 **Bold Text 14**
 Random paragraph with some text: dolor sit dolor amet dolor lorem ipsum ipsum ipsum amet.
 # Random Heading 1
+![Random Image](https://via.placeholder.com/203)
