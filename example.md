@@ -994,3 +994,4 @@ print('Hello, World 494!')
 print('Hello, World 752!')
 ```
 # Random Heading 9
+![Random Image](https://via.placeholder.com/190)
