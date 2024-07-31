@@ -935,3 +935,4 @@ Random paragraph with some text: sit lorem sit amet sit ipsum dolor lorem ipsum 
 print('Hello, World 937!')
 ```
 - Bullet Point 37
+![Random Image](https://via.placeholder.com/420)
