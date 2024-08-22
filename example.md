@@ -525,3 +525,4 @@ Random paragraph with some text: lorem lorem amet ipsum dolor lorem dolor amet d
 4. Numbered Item
 **Bold Text 47**
 ![Random Image](https://via.placeholder.com/465)
+- Bullet Point 86
