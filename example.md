@@ -534,3 +534,4 @@ print('Hello, World 32!')
 print('Hello, World 656!')
 ```
 45. Numbered Item
+![Random Image](https://via.placeholder.com/205)
