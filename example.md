@@ -1098,3 +1098,4 @@ print('Hello, World 598!')
 69. Numbered Item
 43. Numbered Item
 # Random Heading 9
+![Random Image](https://via.placeholder.com/472)
