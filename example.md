@@ -1006,3 +1006,4 @@ Random paragraph with some text: lorem lorem sit dolor sit dolor sit ipsum lorem
 # Random Heading 2
 ![Random Image](https://via.placeholder.com/314)
 4. Numbered Item
+![Random Image](https://via.placeholder.com/152)
