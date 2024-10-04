@@ -899,3 +899,4 @@ Random paragraph with some text: ipsum lorem amet lorem amet lorem lorem amet am
 print('Hello, World 382!')
 ```
 ![Random Image](https://via.placeholder.com/287)
+# Random Heading 1
