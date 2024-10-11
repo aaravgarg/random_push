@@ -451,3 +451,4 @@ print('Hello, World 732!')
 **Bold Text 56**
 3. Numbered Item
 3. Numbered Item
+![Random Image](https://via.placeholder.com/144)
