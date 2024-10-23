@@ -25,7 +25,7 @@ def generate_random_key():
 # Function to generate a random date within the past year
 def generate_random_date():
     today = datetime.now()
-    random_days_ago = random.randint(0, 365)
+    random_days_ago = random.randint(0, 90)
     random_time = timedelta(days=random_days_ago, hours=random.randint(0, 23), minutes=random.randint(0, 59))
     random_date = today - random_time
     return random_date.strftime("%Y-%m-%d %H:%M:%S")
