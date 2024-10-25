@@ -1280,3 +1280,4 @@ Random paragraph with some text: sit ipsum dolor dolor amet lorem dolor amet lor
 - Bullet Point 75
 # Random Heading 9
 - Bullet Point 93
+![Random Image](https://via.placeholder.com/228)
