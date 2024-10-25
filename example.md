@@ -1084,3 +1084,4 @@ print('Hello, World 375!')
 # Random Heading 3
 ![Random Image](https://via.placeholder.com/454)
 79. Numbered Item
+![Random Image](https://via.placeholder.com/253)
