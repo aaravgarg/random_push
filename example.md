@@ -1427,3 +1427,4 @@ print('Hello, World 136!')
 # Random Heading 7
 - Bullet Point 35
 15. Numbered Item
+![Random Image](https://via.placeholder.com/192)
