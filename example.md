@@ -1175,3 +1175,4 @@ print('Hello, World 205!')
 print('Hello, World 862!')
 ```
 10. Numbered Item
+- Bullet Point 100
