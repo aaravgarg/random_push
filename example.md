@@ -482,3 +482,4 @@ Random paragraph with some text: ipsum lorem lorem dolor sit amet ipsum ipsum lo
 print('Hello, World 317!')
 ```
 ![Random Image](https://via.placeholder.com/111)
+73. Numbered Item
