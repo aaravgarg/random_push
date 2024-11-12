@@ -1252,3 +1252,6 @@ Random paragraph with some text: ipsum ipsum ipsum ipsum sit ipsum ipsum amet ip
 4. Numbered Item
 # Random Heading 3
 ![Random Image](https://via.placeholder.com/154)
+```
+print('Hello, World 5!')
+```
