@@ -1402,3 +1402,4 @@ Random paragraph with some text: lorem lorem dolor ipsum lorem amet lorem sit ip
 - Bullet Point 89
 # Random Heading 2
 # Random Heading 6
+![Random Image](https://via.placeholder.com/106)
