@@ -1272,3 +1272,4 @@ print('Hello, World 862!')
 - Bullet Point 5
 34. Numbered Item
 # Random Heading 2
+![Random Image](https://via.placeholder.com/308)
