@@ -399,3 +399,6 @@ print('Hello, World 923!')
 # Random Heading 4
 8. Numbered Item
 Random paragraph with some text: lorem ipsum amet sit ipsum dolor dolor ipsum amet sit.
+```
+print('Hello, World 667!')
+```
