@@ -294,3 +294,4 @@ Random paragraph with some text: dolor ipsum lorem sit sit amet lorem ipsum sit 
 # Random Heading 10
 - Bullet Point 52
 75. Numbered Item
+![Random Image](https://via.placeholder.com/290)
