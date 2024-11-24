@@ -218,3 +218,4 @@ Random paragraph with some text: dolor dolor lorem sit dolor dolor ipsum sit ips
 ```
 print('Hello, World 236!')
 ```
+![Random Image](https://via.placeholder.com/372)
