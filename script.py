@@ -1,9 +1,10 @@
 import random
+import string
 import time
 import subprocess
 import os
 
-# Function to generate random content
+# Function to generate random content for the Markdown file
 def generate_random_content():
     content_types = [
         lambda: f"# Random Heading {random.randint(1, 10)}\n",
@@ -16,6 +17,10 @@ def generate_random_content():
     ]
     return random.choice(content_types)()
 
+# Function to generate a random 10-character alphanumeric key
+def generate_random_key():
+    return ''.join(random.choices(string.ascii_letters + string.digits, k=10))
+
 # Function to edit a Markdown file with random changes
 def edit_markdown(file_path):
     try:
@@ -26,8 +31,10 @@ def edit_markdown(file_path):
     except Exception as e:
         print(f"Error editing Markdown file: {e}")
 
-# Function to commit and push changes to GitHub
-def push_to_github(commit_message="Random update"):
+# Function to commit and push changes to GitHub with a random commit message
+def push_to_github():
+    random_key = generate_random_key()
+    commit_message = f"Automated update with ID: {random_key}"
     try:
         # Git add
         subprocess.run(["git", "add", "."], check=True)
@@ -35,7 +42,7 @@ def push_to_github(commit_message="Random update"):
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
         # Git push
         subprocess.run(["git", "push"], check=True)
-        print("Changes pushed to GitHub.")
+        print(f"Changes pushed to GitHub with commit message: '{commit_message}'")
     except subprocess.CalledProcessError as e:
         print(f"Git error: {e}")
 
@@ -51,7 +58,7 @@ def main():
 
     while True:
         edit_markdown(markdown_file)
-        push_to_github(commit_message="Automated random update with diverse edits")
+        push_to_github()
         time.sleep(interval)
 
 if __name__ == "__main__":
