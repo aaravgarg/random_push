@@ -328,3 +328,4 @@ print('Hello, World 60!')
 ```
 **Bold Text 40**
 - Bullet Point 5
+![Random Image](https://via.placeholder.com/301)
