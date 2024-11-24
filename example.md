@@ -270,3 +270,4 @@ Random paragraph with some text: dolor amet amet sit ipsum dolor lorem sit dolor
 ```
 print('Hello, World 587!')
 ```
+![Random Image](https://via.placeholder.com/100)
