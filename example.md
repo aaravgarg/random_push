@@ -226,3 +226,4 @@ print('Hello, World 535!')
 ```
 **Bold Text 17**
 Random paragraph with some text: lorem sit ipsum amet amet sit ipsum ipsum ipsum amet.
+![Random Image](https://via.placeholder.com/261)
