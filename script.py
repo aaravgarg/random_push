@@ -67,7 +67,7 @@ def push_to_github():
 # Main loop
 def main():
     markdown_file = "example.md"  # Change this to your Markdown file
-    interval = 60  # Time interval in seconds
+    interval = 3  # Time interval in seconds
 
     # Ensure the Markdown file exists
     if not os.path.exists(markdown_file):
