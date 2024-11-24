@@ -283,3 +283,4 @@ Random paragraph with some text: amet sit amet sit ipsum lorem lorem ipsum sit l
 - Bullet Point 9
 ![Random Image](https://via.placeholder.com/207)
 # Random Heading 3
+![Random Image](https://via.placeholder.com/499)
