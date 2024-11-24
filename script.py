@@ -3,14 +3,26 @@ import time
 import subprocess
 import os
 
-# Function to make random edits to a Markdown file
+# Function to generate random content
+def generate_random_content():
+    content_types = [
+        lambda: f"# Random Heading {random.randint(1, 10)}\n",
+        lambda: f"- Bullet Point {random.randint(1, 100)}\n",
+        lambda: f"{random.randint(1, 100)}. Numbered Item\n",
+        lambda: f"```\nprint('Hello, World {random.randint(1, 1000)}!')\n```\n",
+        lambda: f"Random paragraph with some text: {' '.join([random.choice(['lorem', 'ipsum', 'dolor', 'sit', 'amet']) for _ in range(10)])}.\n",
+        lambda: f"**Bold Text {random.randint(1, 100)}**\n",
+        lambda: f"![Random Image](https://via.placeholder.com/{random.randint(100, 500)})\n",
+    ]
+    return random.choice(content_types)()
+
+# Function to edit a Markdown file with random changes
 def edit_markdown(file_path):
     try:
         with open(file_path, "a") as file:
-            # Add a random line
-            random_line = f"\nRandom edit: {random.randint(1, 1000)}"
-            file.write(random_line)
-        print(f"Updated {file_path} with: {random_line}")
+            random_content = generate_random_content()
+            file.write(random_content)
+        print(f"Updated {file_path} with:\n{random_content}")
     except Exception as e:
         print(f"Error editing Markdown file: {e}")
 
@@ -30,7 +42,7 @@ def push_to_github(commit_message="Random update"):
 # Main loop
 def main():
     markdown_file = "example.md"  # Change this to your Markdown file
-    interval = 5  # Time interval in seconds
+    interval = 60  # Time interval in seconds
 
     # Ensure the Markdown file exists
     if not os.path.exists(markdown_file):
@@ -39,7 +51,7 @@ def main():
 
     while True:
         edit_markdown(markdown_file)
-        push_to_github(commit_message="Automated random update")
+        push_to_github(commit_message="Automated random update with diverse edits")
         time.sleep(interval)
 
 if __name__ == "__main__":
