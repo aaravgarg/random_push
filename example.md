@@ -239,3 +239,4 @@ print('Hello, World 6!')
 # Random Heading 9
 # Random Heading 9
 **Bold Text 23**
+![Random Image](https://via.placeholder.com/310)
