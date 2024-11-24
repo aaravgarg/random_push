@@ -337,3 +337,4 @@ print('Hello, World 732!')
 **Bold Text 98**
 **Bold Text 62**
 81. Numbered Item
+![Random Image](https://via.placeholder.com/500)
