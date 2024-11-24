@@ -307,3 +307,4 @@ Random paragraph with some text: sit ipsum amet sit dolor amet ipsum amet lorem 
 21. Numbered Item
 67. Numbered Item
 **Bold Text 73**
+![Random Image](https://via.placeholder.com/245)
